@@ -1,11 +1,11 @@
 {
-  "name": "@ntcho/notion-rehype",
+  "name": "@astro-notion/notion-rehype",
   "version": "1.2.0",
-  "description": "Turn Notion blocks into rehype hast",
+  "description": "Rehype plugin to transform Notion blocks to HAST nodes",
   "main": "dist/index.js",
   "type": "module",
   "repository": {
-    "url": "git@github.com:ntcho/notion-rehype.git"
+    "url": "git@github.com:astro-notion/notion-rehype.git"
   },
   "scripts": {
     "clean": "rm -rf dist",
