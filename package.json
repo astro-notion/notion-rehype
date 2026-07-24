@@ -5,16 +5,19 @@
   "main": "dist/index.js",
   "type": "module",
   "repository": {
-    "url": "git@github.com:astro-notion/notion-rehype.git"
+    "type": "git",
+    "url": "git+https://github.com/astro-notion/notion-rehype.git"
   },
   "scripts": {
     "clean": "rm -rf dist",
     "build": "pnpm run clean && tsc --build",
     "build:watch": "tsc --watch",
-    "prepublishOnly": "pnpm run build"
+    "prepublishOnly": "pnpm run build",
+    "typecheck": "tsc --noEmit"
   },
   "files": [
     "dist",
+    "docs/CONTRIBUTING.md",
     "README.md"
   ],
   "keywords": [

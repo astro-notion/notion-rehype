@@ -2,6 +2,8 @@
 
 Turn Notion blocks(from API) into rehype(hast), so you can make the most of the rich rehype ecosystem.
 
+Contributions are welcome. See [Contributing and Releasing](docs/CONTRIBUTING.md) for contributor expectations and the canonical maintainer release procedure.
+
 ## Usage
 
 ```js
